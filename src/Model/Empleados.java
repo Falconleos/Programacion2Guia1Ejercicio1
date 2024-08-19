@@ -54,11 +54,32 @@ public class Empleados {
     //Methods
     
         //show employees
-        public void showEmployees(Empleados employee1){
+        public void showEmployees(Empleados employee){
             System.out.println("Empleado[dni = " + this.dni + ", nombre = " + this.name + ", apellido = " + this.surname + ", salario = " + this.salary + "]");      
         }
         
+        public Float setSalary(Empleados employee){
+            
+            float porcentage = 0.15f;
+            
+            this.salary = employee.getSalary() + (employee.getSalary() * porcentage);
+            
+            System.out.println("");
+            System.out.println("Empleado Actualizado");
+            System.out.println("Empleado[dni = " + this.dni + ", nombre = " + this.name + ", apellido = " + this.surname + ", salario = " + this.salary + "]");      
+      
+            
+        return this.salary;    
+        }
         
+        public void showAnnualSalary(Empleados employee){
+            
+            float annualSalary = this.salary * 12;
+            
+            System.out.println("");
+            System.out.println("Salario anual de " + this.name + " " + this.surname + ": " + annualSalary);
+        }
     
+        
     
 }

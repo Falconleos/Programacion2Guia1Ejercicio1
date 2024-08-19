@@ -15,6 +15,11 @@ public class Programacion2Guia1Ejercicio1 {
         employee1.showEmployees(employee1);
         employee2.showEmployees(employee2);
         
+        //Update salary
+        employee1.setSalary(employee1);
+        
+        //show employee's annual salary
+        employee1.showAnnualSalary(employee1);
     }
     
 }
