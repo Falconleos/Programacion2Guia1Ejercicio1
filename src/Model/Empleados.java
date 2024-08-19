@@ -53,9 +53,9 @@ public class Empleados {
     
     //Methods
     
-        //calculate anual salary
-        public Float getAnnualSalary(Float salary){
-            return this.salary * 12;
+        //show employees
+        public void showEmployees(Empleados employee1){
+            System.out.println("Empleado[dni = " + this.dni + ", nombre = " + this.name + ", apellido = " + this.surname + ", salario = " + this.salary + "]");      
         }
         
         

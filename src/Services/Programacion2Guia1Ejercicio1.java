@@ -9,9 +9,11 @@ public class Programacion2Guia1Ejercicio1 {
    
     public static void main(String[] args) {
         
-        Empleados employee1 = new Empleados("34946165","Leonel","Soto",1800f);
+        Empleados employee1 = new Empleados("23456345"," Carlos","Gutierrez",25000f);
+        Empleados employee2 = new Empleados("34234123"," Ana","Sanchez",27500f);
         
-        System.out.println("El salario anual de " + employee1.getName() + " es: " + employee1.getAnnualSalary(employee1.getSalary()));;
+        employee1.showEmployees(employee1);
+        employee2.showEmployees(employee2);
         
     }
     
