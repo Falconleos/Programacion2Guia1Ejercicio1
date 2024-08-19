@@ -11,7 +11,7 @@ public class Programacion2Guia1Ejercicio1 {
         
         Empleados employee1 = new Empleados("34946165","Leonel","Soto",1800f);
         
-        System.out.println(employee1.getAnnualSalary(employee1.getSalary()));;
+        System.out.println("El salario anual de " + employee1.getName() + " es: " + employee1.getAnnualSalary(employee1.getSalary()));;
         
     }
     
