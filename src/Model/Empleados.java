@@ -5,10 +5,10 @@ package Model;
 public class Empleados {
     
     //Class's Attributes
-    String dni;
-    String name;
-    String surname;
-    Float salary;
+    private String dni;
+    private String name;
+    private String surname;
+    private Float salary;
     
     //Getters & Setters
     public void setName(String name){

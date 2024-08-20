@@ -3,9 +3,9 @@ package Model;
 
 
 public class CuentaBanco {
-    Integer identificador;
-    String nombre;
-    Float balance;
+    private Integer identificador;
+    private String nombre;
+    private Float balance;
     
     public CuentaBanco(Integer identificador,String nombre,Float balance){
        this.identificador = identificador; 
@@ -56,7 +56,7 @@ public class CuentaBanco {
        return this.balance;
    }
    
-   public void cuentaData(){
+   public void cuentaData(CuentaBanco cuenta){
        System.out.println("");
        System.out.println("Nro. Cuenta: " + this.identificador);
        System.out.println("Nombre: " + this.nombre);
