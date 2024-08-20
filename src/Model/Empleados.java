@@ -78,6 +78,7 @@ public class Empleados {
             
             System.out.println("");
             System.out.println("Salario anual de " + this.name + " " + this.surname + ": " + annualSalary);
+            System.out.println("");
         }
     
         
